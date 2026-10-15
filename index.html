@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>LunchMate</title>
+<meta name="theme-color" content="#000000">
+<meta name="color-scheme" content="dark">
+<link rel="icon" type="image/png" href="icons/favicon-32.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="brand"><span class="dot"></span><span class="lbl">LunchMate</span></div><span id="sum" class="mono dd"></span></header>
+<div id="bar"><button class="ib" data-act="nav" data-v="-1">&#8249;</button><button id="range" class="mono" data-act="nav" data-v="0"></button><button class="ib" data-act="nav" data-v="1">&#8250;</button></div>
+<main id="main"></main>
+<nav><button class="tab" data-act="mode" data-v="weekly">Weekly</button><button class="tab" data-act="mode" data-v="monthly">Monthly</button></nav>
+<div id="selbar" class="hidden"></div>
+<div id="sheet" class="hidden"></div>
+<div id="toast" class="hidden"></div>
+<script src="app.js"></script>
+</body>
+</html>
